@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="az" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact · Ali Guliyev</title>
+  <meta name="description" content="Ali Guliyev · Red Team student · CV website">
+  <link rel="icon" href="assets/img/avatar.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/i18n.js"></script>
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+<div class="nav">
+  <div class="nav-inner container">
+    <div class="brand">
+      <img src="assets/img/avatar.svg" alt="AG">
+      <span data-i18n="hero.title">Əli Quliyev</span>
+      <span class="badge">bash-mode</span>
+    </div>
+    <div class="navlinks">
+      <a href="index.html" data-i18n="nav.home">Ana səhifə</a>
+      <a href="experience.html" data-i18n="nav.experience">Təcrübə</a>
+      <a href="projects.html" data-i18n="nav.projects">Layihələr</a>
+      <a href="skills.html" data-i18n="nav.skills">Bacarıqlar</a>
+      <a href="education.html" data-i18n="nav.education">Təhsil</a>
+      <a href="certifications.html" data-i18n="nav.certs">Sertifikatlar</a>
+      <a href="contact.html" data-i18n="nav.contact">Əlaqə</a>
+    </div>
+    <div class="controls">
+      <button class="btn" data-action="lang">EN</button>
+      <button class="btn" data-action="theme">☀️ Light</button>
+    </div>
+  </div>
+</div>
+<div class="container"><section class="fullheight">
+
+<h2 data-i18n="contact.title">Əlaqə</h2>
+<div class="grid cols-2">
+  <div class="card">
+    <h3>Get in touch</h3>
+    <p data-i18n="contact.form">Formadan istifadə et və ya mənə e-poçt yaz.</p>
+    
+    <form class="grid" onsubmit="event.preventDefault(); sendMail();">
+      <input class="btn" id="name" type="text" name="name" placeholder="Ad / Name" required>
+      <input class="btn" id="email" type="email" name="email" placeholder="E-poçt / Email" required>
+      <textarea class="btn" id="msg" name="message" rows="6" placeholder="Mesaj / Message" required></textarea>
+      <button class="btn" type="submit">Göndər / Send</button>
+    </form>
+
+  </div>
+  <div class="card">
+    <h3>Links</h3>
+    <ul>
+      <li>LinkedIn: <a href="https://az.linkedin.com/in/aliguliyevcs" target="_blank" rel="noreferrer">/in/aliguliyevcs</a></li>
+      <li>GitHub: <a href="#" target="_blank" rel="noreferrer">@aliguliyevcs</a></li>
+      <li>Telegram/X: <a href="#" target="_blank" rel="noreferrer">@quli313</a></li>
+      <li>Location: Bina, Xəzər, Bakı</li>
+    </ul>
+  </div>
+</div>
+
+</section>
+</div>
+<div class="footer">
+  <div class="container">
+    <span data-i18n="footer.note">© 2025 Əli Quliyev · HTML • CSS • JS ilə hazırlandı</span>
+  </div>
+</div>
+</body>
+</html>
