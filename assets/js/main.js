@@ -6,7 +6,7 @@
   // Restore prefs
   const savedTheme = localStorage.getItem("theme") || "dark";
   html.setAttribute("data-theme", savedTheme);
-  const savedLang = localStorage.getItem("lang") || "az";
+  const savedLang = localStorage.getItem("lang") || "en";
 
   function setTheme(next){
     html.setAttribute("data-theme", next);
